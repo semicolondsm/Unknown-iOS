@@ -1,22 +1,17 @@
 //
-//  WriteViewController.swift
+//  MypageViewController.swift
 //  Unknown
 //
-//  Created by kimsian on 2021/11/22.
+//  Created by kimsian on 2021/11/23.
 //
 
 import UIKit
 
-class WriteViewController: UIViewController {
-
-    @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var languageView: UIView!
+class MypageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        contentView.layer.addBorder([.bottom], color: UIColor.gray, width: 1)
-        
+
         // Do any additional setup after loading the view.
     }
     
