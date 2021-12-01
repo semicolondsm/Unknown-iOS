@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Highlightr (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - Highlightr
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Highlightr
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Highlightr: 595f3e100737c8de41113385da8bd0b5b65212c6
+
+PODFILE CHECKSUM: cdbd0d48cabb921ecee31272ff7ba9db994f2885
+
+COCOAPODS: 1.11.2
