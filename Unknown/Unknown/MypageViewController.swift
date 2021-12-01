@@ -9,12 +9,15 @@ import UIKit
 
 class MypageViewController: UIViewController {
     
+    @IBOutlet weak var profileImgView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let url = URL(string: "https://avatars.githubusercontent.com/u/81298254?v=4")
+        profileImgView.load(url: url!)
         // Do any additional setup after loading the view.
     }
-    
 
     /*
     // MARK: - Navigation
@@ -27,3 +30,17 @@ class MypageViewController: UIViewController {
     */
 
 }
+
+extension UIImageView {
+    func load(url: URL) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {       DispatchQueue.main.async {
+                            self?.image = image
+                        }
+                    }
+                }
+            }
+        }
+    }
+

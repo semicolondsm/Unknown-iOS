@@ -10,18 +10,29 @@ import UIKit
 class SearchViewController: UIViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setSerchBar()
         // Do any additional setup after loading the view.
+        self.searchBar.searchBarStyle = .minimal
     }
     
     func setSerchBar() {
         
         searchBar.setImage(UIImage(), for: UISearchBar.Icon.search, state: .normal)
         self.navigationItem.rightBarButtonItem?.tintColor = UIColor.black
+        if let textfield = searchBar.value(forKey: "searchField") as? UITextField {
+        
+        }
     }
 
+    @IBAction func modalPresent(_ sender: UIButton) {
+            let newVC = self.storyboard?.instantiateViewController(identifier: "pushVC")
+            newVC?.modalTransitionStyle = .coverVertical
+            newVC?.modalPresentationStyle = .automatic
+            self.present(newVC!, animated: true, completion: nil)
+        }
 //    func DateType2String() -> String{
 //
 //        let current = Date()

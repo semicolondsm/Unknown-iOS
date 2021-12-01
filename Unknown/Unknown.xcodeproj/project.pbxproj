@@ -30,6 +30,7 @@
 		F1963A42274D25CA00FA9428 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A40274D25CA00FA9428 /* MainTableViewCell.swift */; };
 		F1963A43274D25CA00FA9428 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1963A41274D25CA00FA9428 /* MainTableViewCell.xib */; };
 		F1963A45274D2B6100FA9428 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A44274D2B6100FA9428 /* Extension.swift */; };
+		F1D1B4392756104A0016DBA0 /* NotoSansCJKkr-hinted in Resources */ = {isa = PBXBuildFile; fileRef = F1D1B4382756104A0016DBA0 /* NotoSansCJKkr-hinted */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		F1963A40274D25CA00FA9428 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		F1963A41274D25CA00FA9428 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		F1963A44274D2B6100FA9428 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F1D1B4382756104A0016DBA0 /* NotoSansCJKkr-hinted */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "NotoSansCJKkr-hinted"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				F1963A21274A8B2500FA9428 /* SignupViewController.swift */,
 				F1963A1F274A5FBB00FA9428 /* LoginViewController.swift */,
 				F1491E23274FA5F5003C3E6F /* PostViewController.swift */,
+				F1D1B4382756104A0016DBA0 /* NotoSansCJKkr-hinted */,
 				F13039D5273AB4B200627E20 /* Main.storyboard */,
 				F13039D8273AB4B400627E20 /* Assets.xcassets */,
 				F13039DA273AB4B400627E20 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 				F13039D9273AB4B400627E20 /* Assets.xcassets in Resources */,
 				F1963A43274D25CA00FA9428 /* MainTableViewCell.xib in Resources */,
 				F13039D7273AB4B200627E20 /* Main.storyboard in Resources */,
+				F1D1B4392756104A0016DBA0 /* NotoSansCJKkr-hinted in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
