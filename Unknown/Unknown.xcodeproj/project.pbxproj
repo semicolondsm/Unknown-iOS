@@ -114,26 +114,17 @@
 		F13039CE273AB4B200627E20 /* Unknown */ = {
 			isa = PBXGroup;
 			children = (
+				F1D1B4382756104A0016DBA0 /* NotoSansCJKkr-hinted */,
+				F1AF1C7E27588E6B00F3D651 /* Extension */,
+				F1AF1C7C27588D9400F3D651 /* Cell */,
 				F1491E15274F7B58003C3E6F /* Networking */,
+				F1AF1C7D27588DF500F3D651 /* ViewController */,
 				F13039CF273AB4B200627E20 /* AppDelegate.swift */,
 				F13039D1273AB4B200627E20 /* SceneDelegate.swift */,
-				F13039D3273AB4B200627E20 /* ViewController.swift */,
-				F1963A40274D25CA00FA9428 /* MainTableViewCell.swift */,
-				F1963A41274D25CA00FA9428 /* MainTableViewCell.xib */,
-				F1963A3E274D223A00FA9428 /* ChangePasswordViewController.swift */,
-				F1963A3C274CD85100FA9428 /* MypageViewController.swift */,
-				F1963A3A274BCE7000FA9428 /* WriteViewController.swift */,
-				F1963A38274BC62E00FA9428 /* ListTableViewController.swift */,
-				F1963A23274B330300FA9428 /* SearchViewController.swift */,
-				F1963A21274A8B2500FA9428 /* SignupViewController.swift */,
-				F1963A1F274A5FBB00FA9428 /* LoginViewController.swift */,
-				F1491E23274FA5F5003C3E6F /* PostViewController.swift */,
-				F1D1B4382756104A0016DBA0 /* NotoSansCJKkr-hinted */,
 				F13039D5273AB4B200627E20 /* Main.storyboard */,
 				F13039D8273AB4B400627E20 /* Assets.xcassets */,
 				F13039DA273AB4B400627E20 /* LaunchScreen.storyboard */,
 				F13039DD273AB4B400627E20 /* Info.plist */,
-				F1963A44274D2B6100FA9428 /* Extension.swift */,
 			);
 			path = Unknown;
 			sourceTree = "<group>";
@@ -156,6 +147,39 @@
 				F1491E1B274F7BC4003C3E6F /* CommunityAPI.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		F1AF1C7C27588D9400F3D651 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F1963A40274D25CA00FA9428 /* MainTableViewCell.swift */,
+				F1963A41274D25CA00FA9428 /* MainTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F1AF1C7D27588DF500F3D651 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F13039D3273AB4B200627E20 /* ViewController.swift */,
+				F1963A3E274D223A00FA9428 /* ChangePasswordViewController.swift */,
+				F1963A3C274CD85100FA9428 /* MypageViewController.swift */,
+				F1963A3A274BCE7000FA9428 /* WriteViewController.swift */,
+				F1963A38274BC62E00FA9428 /* ListTableViewController.swift */,
+				F1963A23274B330300FA9428 /* SearchViewController.swift */,
+				F1963A21274A8B2500FA9428 /* SignupViewController.swift */,
+				F1963A1F274A5FBB00FA9428 /* LoginViewController.swift */,
+				F1491E23274FA5F5003C3E6F /* PostViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F1AF1C7E27588E6B00F3D651 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1963A44274D2B6100FA9428 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
