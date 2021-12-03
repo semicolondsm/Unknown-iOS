@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="u1O-Iv-kr2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tcZ-6s-Nfb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -365,7 +365,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="검색결과" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acv-uE-kDF">
-                                        <rect key="frame" x="60" y="152" width="55.5" height="24"/>
+                                        <rect key="frame" x="60" y="152" width="59" height="24"/>
                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -451,7 +451,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="작성자" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baa-dv-Vas">
-                                            <rect key="frame" x="60" y="16" width="34" height="15.5"/>
+                                            <rect key="frame" x="60" y="16" width="36" height="19.5"/>
                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -463,7 +463,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년 11월 18일 16:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6n-cD-qbU">
-                                            <rect key="frame" x="60" y="35" width="125" height="14"/>
+                                            <rect key="frame" x="60" y="35" width="125" height="18"/>
                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="12"/>
                                             <color key="textColor" red="0.4352940917" green="0.43921568989999998" blue="0.43921568989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -497,19 +497,19 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hyeyeonchurros" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYn-em-SOL">
-                                            <rect key="frame" x="48" y="14" width="86" height="14"/>
+                                            <rect key="frame" x="48" y="14" width="93" height="18"/>
                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="scanf 오류 구문 넣어봐요 구글링ㄱㄱ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHe-yg-UUL">
-                                            <rect key="frame" x="138" y="14" width="177.5" height="14"/>
+                                            <rect key="frame" x="145" y="14" width="186" height="18"/>
                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sV8-Cp-C70">
-                                            <rect key="frame" x="48" y="29" width="86" height="12"/>
+                                            <rect key="frame" x="48" y="29" width="93" height="15"/>
                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="10"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -572,7 +572,7 @@
                                         <rect key="frame" x="64" y="20" width="60" height="24"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ba-09-Jgt">
-                                                <rect key="frame" x="11" y="3" width="9" height="14"/>
+                                                <rect key="frame" x="11" y="3" width="9" height="18"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="9" id="6GV-Ya-VLi"/>
                                                 </constraints>
@@ -680,19 +680,19 @@
                                 <rect key="frame" x="0.0" y="98" width="414" height="808"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="님" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNh-OV-gxK">
-                                        <rect key="frame" x="266.5" y="128" width="14" height="19"/>
+                                        <rect key="frame" x="271" y="128" width="15" height="24"/>
                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hyeyeonchurros" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELN-9Z-Z3B">
-                                        <rect key="frame" x="150" y="128" width="114.5" height="19"/>
+                                        <rect key="frame" x="145" y="128" width="124" height="24"/>
                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qwer1234" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80v-kV-0gQ">
-                                        <rect key="frame" x="176" y="154" width="62.5" height="16.5"/>
+                                        <rect key="frame" x="175" y="159" width="64.5" height="21"/>
                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -713,7 +713,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내 게시물" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-l4-C6K">
-                                        <rect key="frame" x="32" y="210" width="60" height="19"/>
+                                        <rect key="frame" x="32" y="210" width="63.5" height="24"/>
                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -928,13 +928,13 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="작성자" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0O-xC-nOr">
-                                                <rect key="frame" x="60" y="28" width="34" height="15.5"/>
+                                                <rect key="frame" x="60" y="28" width="36" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021년 11월 18일 16:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNz-Cv-O2X">
-                                                <rect key="frame" x="60" y="47" width="125" height="14"/>
+                                                <rect key="frame" x="60" y="47" width="125" height="18"/>
                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="12"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -950,7 +950,7 @@
                                                 <buttonConfiguration key="configuration" style="plain" image="ellipsis" catalog="system"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="저기요 이 코드 오류 좀 찾아주세요 C언어인데 왜 안될까요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbj-UV-UdV">
-                                                <rect key="frame" x="16" y="72" width="320" height="16.5"/>
+                                                <rect key="frame" x="16" y="72" width="336" height="21"/>
                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -993,25 +993,25 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hyeyeonchurros" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5M-nY-MD6">
-                                                            <rect key="frame" x="48" y="20" width="86" height="14"/>
+                                                            <rect key="frame" x="48" y="20" width="93" height="18"/>
                                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="12"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9k-ko-u5v">
-                                                            <rect key="frame" x="48" y="34" width="6" height="12"/>
+                                                            <rect key="frame" x="48" y="38" width="6" height="15"/>
                                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="10"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="scanf 오류 구문 넣어봐요 구글링 ㄱㄱ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T12-eL-ot6">
-                                                            <rect key="frame" x="138" y="20" width="181" height="14"/>
+                                                            <rect key="frame" x="145" y="20" width="189" height="18"/>
                                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="12"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJA-rP-4rS">
-                                                            <rect key="frame" x="54" y="34" width="17.5" height="12"/>
+                                                            <rect key="frame" x="54" y="38" width="18.5" height="15"/>
                                                             <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="10"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -1117,8 +1117,9 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNS-BS-eFj">
                                 <rect key="frame" x="0.0" y="308" width="414" height="588"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo3-fD-g3V">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo3-fD-g3V">
                                         <rect key="frame" x="139" y="63" width="136" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <attributedString key="attributedText">
                                             <fragment content="SIGN UP">
                                                 <attributes>
@@ -1129,54 +1130,6 @@
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="    ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tWT-Gf-Puk">
-                                        <rect key="frame" x="16" y="152" width="382" height="48"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="Tun-GM-XMg"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <real key="value" value="0.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="    PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PVq-qT-h0b">
-                                        <rect key="frame" x="16" y="216" width="382" height="48"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="tkC-oK-Rz1"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <real key="value" value="0.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="    Github ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ybq-sa-7Kt">
-                                        <rect key="frame" x="16" y="280" width="382" height="48"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="aJV-2k-l2M"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <real key="value" value="0.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oe4-Ty-K7R">
                                         <rect key="frame" x="16" y="366" width="382" height="48"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1202,7 +1155,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b11-sy-As2">
-                                        <rect key="frame" x="238" y="430" width="88.5" height="20"/>
+                                        <rect key="frame" x="244.5" y="430" width="92.5" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="OFu-FL-VGs"/>
                                         </constraints>
@@ -1213,7 +1166,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이미 계정이 있으신가요?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BR-Ja-nZ9">
-                                        <rect key="frame" x="101" y="430" width="137" height="20"/>
+                                        <rect key="frame" x="101" y="430" width="143.5" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="Wqg-ua-vi8"/>
                                         </constraints>
@@ -1221,29 +1174,111 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48c-45-KGO">
+                                        <rect key="frame" x="16" y="152" width="382" height="48"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sDn-8k-LWD">
+                                                <rect key="frame" x="16" y="0.0" width="350" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="oLT-yd-IFU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="sDn-8k-LWD" firstAttribute="top" secondItem="48c-45-KGO" secondAttribute="top" id="1ym-Y4-0gk"/>
+                                            <constraint firstItem="sDn-8k-LWD" firstAttribute="leading" secondItem="48c-45-KGO" secondAttribute="leading" constant="16" id="77R-bh-jnU"/>
+                                            <constraint firstAttribute="height" constant="48" id="Z5P-jQ-Stk"/>
+                                            <constraint firstAttribute="trailing" secondItem="sDn-8k-LWD" secondAttribute="trailing" constant="16" id="oW9-5g-Swa"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kXv-rQ-hob">
+                                        <rect key="frame" x="16" y="216" width="382" height="48"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wGA-g9-w5c">
+                                                <rect key="frame" x="16" y="0.0" width="350" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="40D-mN-VeW"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="wGA-g9-w5c" firstAttribute="leading" secondItem="kXv-rQ-hob" secondAttribute="leading" constant="16" id="F1P-Ot-hLK"/>
+                                            <constraint firstItem="wGA-g9-w5c" firstAttribute="top" secondItem="kXv-rQ-hob" secondAttribute="top" id="UWZ-Df-ATU"/>
+                                            <constraint firstAttribute="height" constant="48" id="kP8-ag-K6s"/>
+                                            <constraint firstAttribute="trailing" secondItem="wGA-g9-w5c" secondAttribute="trailing" constant="16" id="z8i-7d-1bD"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVx-PW-7KS">
+                                        <rect key="frame" x="16" y="280" width="382" height="48"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Github ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ja4-Wd-rHW">
+                                                <rect key="frame" x="16" y="0.0" width="350" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="Hnb-eK-ytS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Ja4-Wd-rHW" firstAttribute="top" secondItem="eVx-PW-7KS" secondAttribute="top" id="PiJ-3u-t3e"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ja4-Wd-rHW" secondAttribute="trailing" constant="16" id="WLj-s0-Jvl"/>
+                                            <constraint firstAttribute="height" constant="48" id="gZu-v7-uFG"/>
+                                            <constraint firstItem="Ja4-Wd-rHW" firstAttribute="leading" secondItem="eVx-PW-7KS" secondAttribute="leading" constant="16" id="pqW-za-WSy"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="Ybq-sa-7Kt" firstAttribute="top" secondItem="PVq-qT-h0b" secondAttribute="bottom" constant="16" id="1TZ-PU-E8k"/>
-                                    <constraint firstItem="oe4-Ty-K7R" firstAttribute="top" secondItem="Ybq-sa-7Kt" secondAttribute="bottom" constant="38" id="2w6-OC-qH3"/>
                                     <constraint firstItem="b11-sy-As2" firstAttribute="leading" secondItem="3BR-Ja-nZ9" secondAttribute="trailing" id="6A3-HK-hWR"/>
                                     <constraint firstAttribute="height" constant="588" id="Eju-tF-tvI"/>
-                                    <constraint firstAttribute="trailing" secondItem="PVq-qT-h0b" secondAttribute="trailing" constant="16" id="G0I-tE-KNb"/>
                                     <constraint firstItem="oe4-Ty-K7R" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="JnQ-Qx-ivN"/>
                                     <constraint firstItem="3BR-Ja-nZ9" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="101" id="KnW-yg-EME"/>
                                     <constraint firstItem="b11-sy-As2" firstAttribute="top" secondItem="oe4-Ty-K7R" secondAttribute="bottom" constant="16" id="OOR-V5-YOe"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ybq-sa-7Kt" secondAttribute="trailing" constant="16" id="T3K-bd-moO"/>
-                                    <constraint firstAttribute="trailing" secondItem="tWT-Gf-Puk" secondAttribute="trailing" constant="16" id="Wkb-9K-Zom"/>
-                                    <constraint firstItem="tWT-Gf-Puk" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="YnC-8J-gZb"/>
-                                    <constraint firstItem="Ybq-sa-7Kt" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="Zcx-QN-i08"/>
-                                    <constraint firstItem="tWT-Gf-Puk" firstAttribute="top" secondItem="vo3-fD-g3V" secondAttribute="bottom" constant="46" id="bnI-6M-8oG"/>
                                     <constraint firstAttribute="trailing" secondItem="oe4-Ty-K7R" secondAttribute="trailing" constant="16" id="cVO-K5-Dom"/>
-                                    <constraint firstItem="PVq-qT-h0b" firstAttribute="top" secondItem="tWT-Gf-Puk" secondAttribute="bottom" constant="16" id="fbM-6F-tAJ"/>
+                                    <constraint firstItem="48c-45-KGO" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="du0-z5-ttq"/>
+                                    <constraint firstItem="eVx-PW-7KS" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="e1C-63-C7n"/>
+                                    <constraint firstItem="oe4-Ty-K7R" firstAttribute="top" secondItem="eVx-PW-7KS" secondAttribute="bottom" constant="38" id="esN-J7-p4w"/>
+                                    <constraint firstItem="kXv-rQ-hob" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="f9f-z4-hhl"/>
                                     <constraint firstItem="3BR-Ja-nZ9" firstAttribute="top" secondItem="oe4-Ty-K7R" secondAttribute="bottom" constant="16" id="iKG-VX-quA"/>
-                                    <constraint firstItem="vo3-fD-g3V" firstAttribute="centerX" secondItem="tWT-Gf-Puk" secondAttribute="centerX" id="lrB-zh-jOs"/>
-                                    <constraint firstItem="tWT-Gf-Puk" firstAttribute="top" secondItem="aNS-BS-eFj" secondAttribute="top" constant="152" id="rlx-Jb-6Jh"/>
+                                    <constraint firstItem="eVx-PW-7KS" firstAttribute="top" secondItem="kXv-rQ-hob" secondAttribute="bottom" constant="16" id="iiU-M6-LOZ"/>
+                                    <constraint firstItem="kXv-rQ-hob" firstAttribute="top" secondItem="48c-45-KGO" secondAttribute="bottom" constant="16" id="ja2-G0-fgj"/>
+                                    <constraint firstAttribute="trailing" secondItem="eVx-PW-7KS" secondAttribute="trailing" constant="16" id="l2Y-z5-DJe"/>
+                                    <constraint firstItem="48c-45-KGO" firstAttribute="top" secondItem="aNS-BS-eFj" secondAttribute="top" constant="152" id="meb-aY-Zwo"/>
+                                    <constraint firstAttribute="trailing" secondItem="kXv-rQ-hob" secondAttribute="trailing" constant="16" id="qCZ-Y8-8oH"/>
                                     <constraint firstAttribute="width" constant="414" id="t3F-W5-Gg5"/>
-                                    <constraint firstItem="PVq-qT-h0b" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="yKf-Ko-OpX"/>
+                                    <constraint firstAttribute="trailing" secondItem="48c-45-KGO" secondAttribute="trailing" constant="16" id="tpT-Bb-Ntd"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1263,10 +1298,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ghTextField" destination="Ybq-sa-7Kt" id="sPT-ai-Iz0"/>
-                        <outlet property="idTextField" destination="tWT-Gf-Puk" id="KPE-QF-Zeb"/>
+                        <outlet property="ghTextField" destination="Ja4-Wd-rHW" id="UvH-Kk-iU9"/>
+                        <outlet property="ghView" destination="eVx-PW-7KS" id="8rH-IM-RzE"/>
+                        <outlet property="idTextField" destination="sDn-8k-LWD" id="nOP-aq-Fml"/>
+                        <outlet property="idView" destination="48c-45-KGO" id="SFY-ma-t4q"/>
                         <outlet property="loginBtn" destination="b11-sy-As2" id="aT8-D5-bYU"/>
-                        <outlet property="pwTextField" destination="PVq-qT-h0b" id="A0l-Jj-foW"/>
+                        <outlet property="pwTextField" destination="wGA-g9-w5c" id="wPZ-Bl-Pfe"/>
+                        <outlet property="pwView" destination="kXv-rQ-hob" id="cmj-x5-Aoo"/>
                         <outlet property="signupView" destination="aNS-BS-eFj" id="5qj-MP-AGb"/>
                     </connections>
                 </viewController>

@@ -14,6 +14,9 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var pwTextField: UITextField!
     @IBOutlet weak var ghTextField: UITextField!
     @IBOutlet weak var loginBtn: UIButton!
+    @IBOutlet weak var idView: UIView!
+    @IBOutlet weak var pwView: UIView!
+    @IBOutlet weak var ghView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
