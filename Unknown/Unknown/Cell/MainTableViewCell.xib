@@ -21,11 +21,11 @@
                         <rect key="frame" x="16" y="0.0" width="382" height="177"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIS-5J-ICw">
-                                <rect key="frame" x="16" y="16" width="316" height="16.5"/>
+                                <rect key="frame" x="16" y="16" width="317.5" height="17"/>
                                 <attributedString key="attributedText">
                                     <fragment content="저기요">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -35,7 +35,7 @@
                                     </fragment>
                                     <fragment content="이">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -45,7 +45,7 @@
                                     </fragment>
                                     <fragment content="코드">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -55,7 +55,7 @@
                                     </fragment>
                                     <fragment content="오류">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -65,7 +65,7 @@
                                     </fragment>
                                     <fragment content="좀">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -75,7 +75,7 @@
                                     </fragment>
                                     <fragment content="찾아주세요">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -83,14 +83,9 @@
                                             <font key="NSFont" size="14" name="NotoSerifMyanmar-Regular"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="c">
+                                    <fragment content="c언어인데">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".SFNS-Regular"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="언어인데">
-                                        <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -100,7 +95,7 @@
                                     </fragment>
                                     <fragment content="왜">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
@@ -110,14 +105,14 @@
                                     </fragment>
                                     <fragment content="안될까요">
                                         <attributes>
-                                            <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5d-Rv-gak">
-                                <rect key="frame" x="16" y="44.5" width="350" height="107"/>
+                                <rect key="frame" x="16" y="45" width="350" height="107"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="107" id="gxl-OW-4hh"/>

@@ -13,11 +13,20 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var pwTextField: UITextField!
     @IBOutlet weak var ghTextField: UITextField!
+    @IBOutlet weak var loginBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        loginBtn.setTitle("로그인 하기", for: .normal)
+        
         signupView.layer.maskedCorners = .layerMinXMinYCorner
+        let aa = NSMutableAttributedString(string: loginBtn.currentTitle ?? "")
+        let underLine = NSUnderlineStyle.thick.rawValue
+        aa.addAttribute(NSMutableAttributedString.Key.underlineStyle,
+                        value: underLine,
+                        range: NSRange(location: 0, length: loginBtn.currentTitle!.count))
+        loginBtn.setAttributedTitle(aa, for: .normal)
         // Do any additional setup after loading the view.
     }
     

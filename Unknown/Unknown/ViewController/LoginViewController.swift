@@ -13,10 +13,14 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var pwTextField: UITextField!
     @IBOutlet weak var loginBtn: UIButton!
+    @IBOutlet weak var idView: UIView!
+    @IBOutlet weak var pwView: UIView!
     @IBOutlet weak var signupBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        signupBtn.setTitle("회원가입 하기", for: .normal)
         
         loginView.layer.maskedCorners = .layerMinXMinYCorner
         let aa = NSMutableAttributedString(string: signupBtn.currentTitle ?? "")
