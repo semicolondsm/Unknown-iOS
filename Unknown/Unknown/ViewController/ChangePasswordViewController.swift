@@ -12,6 +12,9 @@ class ChangePasswordViewController: UIViewController {
     @IBOutlet weak var passwordTxtField: UITextField!
     @IBOutlet weak var newpasswordTxtField: UITextField!
     @IBOutlet weak var checkPasswordTxtField: UITextField!
+    @IBOutlet weak var pwView: UIView!
+    @IBOutlet weak var newpwView: UIView!
+    @IBOutlet weak var checkpwView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

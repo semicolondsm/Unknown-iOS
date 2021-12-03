@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tcZ-6s-Nfb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="STj-kQ-OTO">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -805,54 +805,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hhh-1D-Ftw">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="현재 비밀번호" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MkY-bH-NLc">
-                                        <rect key="frame" x="16" y="44" width="382" height="42"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="HCs-Yn-vIX"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="20"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <real key="value" value="0.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="새로운 비밀번호" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PKm-yz-6hi">
-                                        <rect key="frame" x="16" y="98" width="382" height="42"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="y9k-LN-yn8"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="20"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <real key="value" value="0.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="새 비밀번호 재입력" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sjC-SY-96S">
-                                        <rect key="frame" x="16" y="152" width="382" height="42"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="cIz-ra-wIO"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="NotoSansCJKkr-Regular" family="Noto Sans CJK KR" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="20"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <real key="value" value="0.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRY-4n-Njv">
                                         <rect key="frame" x="16" y="230" width="382" height="42"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -870,21 +822,108 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iex-jN-Qci">
+                                        <rect key="frame" x="16" y="44" width="382" height="42"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="현재 비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8DP-my-sBM">
+                                                <rect key="frame" x="16" y="0.0" width="350" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="42" id="yfT-gM-5sI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="8DP-my-sBM" secondAttribute="trailing" constant="16" id="Ffb-Xs-afL"/>
+                                            <constraint firstItem="8DP-my-sBM" firstAttribute="top" secondItem="Iex-jN-Qci" secondAttribute="top" id="age-Px-yEd"/>
+                                            <constraint firstItem="8DP-my-sBM" firstAttribute="leading" secondItem="Iex-jN-Qci" secondAttribute="leading" constant="16" id="ewr-mN-U3t"/>
+                                            <constraint firstAttribute="height" constant="42" id="jZz-8b-drF"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dP2-hb-gQs">
+                                        <rect key="frame" x="16" y="98" width="382" height="42"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="새로운 비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4zA-FO-A8Y">
+                                                <rect key="frame" x="16" y="0.0" width="350" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="42" id="uJC-X3-9yL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="4zA-FO-A8Y" firstAttribute="leading" secondItem="dP2-hb-gQs" secondAttribute="leading" constant="16" id="HHX-ZJ-qO6"/>
+                                            <constraint firstItem="4zA-FO-A8Y" firstAttribute="top" secondItem="dP2-hb-gQs" secondAttribute="top" id="LDE-qi-NfH"/>
+                                            <constraint firstAttribute="height" constant="42" id="MAi-st-6f3"/>
+                                            <constraint firstAttribute="trailing" secondItem="4zA-FO-A8Y" secondAttribute="trailing" constant="16" id="ziQ-jN-rTK"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5j0-t7-19R">
+                                        <rect key="frame" x="16" y="152" width="382" height="42"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="새 비밀번호 재입력" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rnD-yb-7vI">
+                                                <rect key="frame" x="16" y="0.0" width="350" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="42" id="VRY-7l-iCV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="O99-te-hBm"/>
+                                            <constraint firstItem="rnD-yb-7vI" firstAttribute="leading" secondItem="5j0-t7-19R" secondAttribute="leading" constant="16" id="oX0-OS-Ake"/>
+                                            <constraint firstItem="rnD-yb-7vI" firstAttribute="top" secondItem="5j0-t7-19R" secondAttribute="top" id="usA-OR-sQd"/>
+                                            <constraint firstAttribute="trailing" secondItem="rnD-yb-7vI" secondAttribute="trailing" constant="16" id="yGy-5b-7Zg"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="QRY-4n-Njv" firstAttribute="top" secondItem="sjC-SY-96S" secondAttribute="bottom" constant="36" id="C4B-aO-MMo"/>
-                                    <constraint firstItem="sjC-SY-96S" firstAttribute="top" secondItem="PKm-yz-6hi" secondAttribute="bottom" constant="12" id="GMn-h0-bhM"/>
+                                    <constraint firstItem="Iex-jN-Qci" firstAttribute="top" secondItem="Hhh-1D-Ftw" secondAttribute="top" constant="44" id="0kw-ea-Xhv"/>
+                                    <constraint firstAttribute="trailing" secondItem="dP2-hb-gQs" secondAttribute="trailing" constant="16" id="6gp-a0-Xcf"/>
+                                    <constraint firstItem="dP2-hb-gQs" firstAttribute="top" secondItem="Iex-jN-Qci" secondAttribute="bottom" constant="12" id="9hm-2P-Phn"/>
+                                    <constraint firstItem="dP2-hb-gQs" firstAttribute="leading" secondItem="Hhh-1D-Ftw" secondAttribute="leading" constant="16" id="AWv-qf-qcT"/>
+                                    <constraint firstItem="5j0-t7-19R" firstAttribute="leading" secondItem="Hhh-1D-Ftw" secondAttribute="leading" constant="16" id="FQh-a2-rnU"/>
+                                    <constraint firstItem="QRY-4n-Njv" firstAttribute="top" secondItem="5j0-t7-19R" secondAttribute="bottom" constant="36" id="HSa-kJ-3FB"/>
                                     <constraint firstItem="QRY-4n-Njv" firstAttribute="leading" secondItem="Hhh-1D-Ftw" secondAttribute="leading" constant="16" id="Kz1-im-7dx"/>
-                                    <constraint firstAttribute="trailing" secondItem="PKm-yz-6hi" secondAttribute="trailing" constant="16" id="PTR-L9-D0s"/>
-                                    <constraint firstItem="MkY-bH-NLc" firstAttribute="leading" secondItem="Hhh-1D-Ftw" secondAttribute="leading" constant="16" id="Zzh-hN-VUs"/>
                                     <constraint firstAttribute="trailing" secondItem="QRY-4n-Njv" secondAttribute="trailing" constant="16" id="aKq-LN-1o1"/>
-                                    <constraint firstItem="PKm-yz-6hi" firstAttribute="top" secondItem="MkY-bH-NLc" secondAttribute="bottom" constant="12" id="fcG-gy-OAR"/>
-                                    <constraint firstItem="sjC-SY-96S" firstAttribute="leading" secondItem="Hhh-1D-Ftw" secondAttribute="leading" constant="16" id="fyH-WT-hKU"/>
-                                    <constraint firstAttribute="trailing" secondItem="MkY-bH-NLc" secondAttribute="trailing" constant="16" id="lO0-Mb-hwN"/>
-                                    <constraint firstAttribute="trailing" secondItem="sjC-SY-96S" secondAttribute="trailing" constant="16" id="ni8-OA-Mgt"/>
-                                    <constraint firstItem="MkY-bH-NLc" firstAttribute="top" secondItem="Hhh-1D-Ftw" secondAttribute="top" constant="44" id="tho-0r-LTz"/>
-                                    <constraint firstItem="PKm-yz-6hi" firstAttribute="leading" secondItem="Hhh-1D-Ftw" secondAttribute="leading" constant="16" id="tzM-Zc-RXo"/>
+                                    <constraint firstItem="Iex-jN-Qci" firstAttribute="leading" secondItem="Hhh-1D-Ftw" secondAttribute="leading" constant="16" id="egM-jT-atA"/>
+                                    <constraint firstItem="5j0-t7-19R" firstAttribute="top" secondItem="dP2-hb-gQs" secondAttribute="bottom" constant="12" id="iKw-yO-lGM"/>
+                                    <constraint firstAttribute="trailing" secondItem="Iex-jN-Qci" secondAttribute="trailing" constant="16" id="kwP-6k-HOq"/>
+                                    <constraint firstAttribute="trailing" secondItem="5j0-t7-19R" secondAttribute="trailing" constant="16" id="vtq-Uf-SaD"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -898,9 +937,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="checkPasswordTxtField" destination="sjC-SY-96S" id="8m6-Xn-Oyb"/>
-                        <outlet property="newpasswordTxtField" destination="PKm-yz-6hi" id="QcW-Cj-owY"/>
-                        <outlet property="passwordTxtField" destination="MkY-bH-NLc" id="QXs-sh-llq"/>
+                        <outlet property="checkPasswordTxtField" destination="rnD-yb-7vI" id="nSO-8M-b8X"/>
+                        <outlet property="checkpwView" destination="5j0-t7-19R" id="Mkq-t9-3E0"/>
+                        <outlet property="newpasswordTxtField" destination="4zA-FO-A8Y" id="bfI-iB-GDg"/>
+                        <outlet property="newpwView" destination="dP2-hb-gQs" id="sDr-6q-Xf4"/>
+                        <outlet property="passwordTxtField" destination="8DP-my-sBM" id="DIc-r8-hI8"/>
+                        <outlet property="pwView" destination="Iex-jN-Qci" id="Eer-Dg-qli"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2E6-l0-gAd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
