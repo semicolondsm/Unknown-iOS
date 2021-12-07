@@ -7,12 +7,14 @@
 
 import UIKit
 import DropDown
+import Highlightr
 
 class WriteViewController: UIViewController {
 
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var languageView: UIView!
     @IBOutlet weak var btn: UIButton!
+    @IBOutlet weak var codeTextView: UITextView!
     
     private let dropdown: DropDown = {
         let dropDown = DropDown()
@@ -23,12 +25,12 @@ class WriteViewController: UIViewController {
         dropDown.cornerRadius = 10
         return dropDown
     }()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         contentView.layer.addBorder([.bottom], color: UIColor.gray, width: 1)
-        
+        codeTextView.isScrollEnabled = false
     }
     
     @IBAction private func dropBtn(_ sender: UIButton) {

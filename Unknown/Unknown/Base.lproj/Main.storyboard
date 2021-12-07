@@ -626,9 +626,30 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XjF-07-JsP">
                                         <rect key="frame" x="16" y="56" width="382" height="52"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EVY-cX-bfx">
+                                                <rect key="frame" x="71" y="16" width="311" height="20"/>
+                                                <color key="backgroundColor" red="0.90569760099999996" green="0.90569760099999996" blue="0.90569760099999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKs-oR-qxb">
+                                                <rect key="frame" x="20" y="16" width="42" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.90569760099999996" green="0.90569760099999996" blue="0.90569760099999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="52" id="6fj-QX-lvu"/>
+                                            <constraint firstItem="EVY-cX-bfx" firstAttribute="leading" secondItem="XjF-07-JsP" secondAttribute="leading" constant="71" id="P4V-df-bkF"/>
+                                            <constraint firstItem="rKs-oR-qxb" firstAttribute="leading" secondItem="XjF-07-JsP" secondAttribute="leading" constant="20" id="WwD-96-XwG"/>
+                                            <constraint firstAttribute="bottom" secondItem="EVY-cX-bfx" secondAttribute="bottom" constant="16" id="e3L-Q8-wR6"/>
+                                            <constraint firstAttribute="bottom" secondItem="rKs-oR-qxb" secondAttribute="bottom" constant="16" id="puo-Wk-W0o"/>
+                                            <constraint firstItem="rKs-oR-qxb" firstAttribute="top" secondItem="XjF-07-JsP" secondAttribute="top" constant="16" id="rEQ-uv-qJK"/>
+                                            <constraint firstAttribute="trailing" secondItem="EVY-cX-bfx" secondAttribute="trailing" id="rrv-hu-yia"/>
+                                            <constraint firstItem="EVY-cX-bfx" firstAttribute="top" secondItem="XjF-07-JsP" secondAttribute="top" constant="16" id="tXP-Fg-GmZ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -684,6 +705,7 @@
                     </view>
                     <connections>
                         <outlet property="btn" destination="BZG-Az-do3" id="Zg6-hE-hWz"/>
+                        <outlet property="codeTextView" destination="EVY-cX-bfx" id="hiU-hc-1ot"/>
                         <outlet property="contentView" destination="vqg-8E-N1D" id="tkz-b2-P8C"/>
                         <outlet property="languageView" destination="4IP-fw-4vq" id="llI-eY-lws"/>
                     </connections>
