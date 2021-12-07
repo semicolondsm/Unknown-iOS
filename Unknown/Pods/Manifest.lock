@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (5.4.3)
+  - DropDown (2.3.13)
   - Highlightr (2.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.4)
+  - DropDown
   - Highlightr
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DropDown
     - Highlightr
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   Highlightr: 595f3e100737c8de41113385da8bd0b5b65212c6
 
-PODFILE CHECKSUM: cdbd0d48cabb921ecee31272ff7ba9db994f2885
+PODFILE CHECKSUM: 3adeab57b916b020657ca343ddf46b1e95812264
 
 COCOAPODS: 1.11.2
