@@ -13,9 +13,9 @@ enum AuthAPI: API {
     func path() -> String {
         switch self {
         case .login:
-            return "/login"
+            return "/user/login"
         case .signup:
-            return "/signup"
+            return "/user/signup"
         }
     }    
 }

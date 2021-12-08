@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1497A08DB4C427434DEF5A0F /* Pods_Unknown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A1948ABAB10826E3348F86 /* Pods_Unknown.framework */; };
+		F115D5C42760EFAF0080BB68 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F115D5C32760EFAF0080BB68 /* TokenModel.swift */; };
 		F13039D0273AB4B200627E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13039CF273AB4B200627E20 /* AppDelegate.swift */; };
 		F13039D2273AB4B200627E20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13039D1273AB4B200627E20 /* SceneDelegate.swift */; };
 		F13039D4273AB4B200627E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13039D3273AB4B200627E20 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		0C66EF0A203397D6F6836173 /* Pods-Unknown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unknown.release.xcconfig"; path = "Target Support Files/Pods-Unknown/Pods-Unknown.release.xcconfig"; sourceTree = "<group>"; };
 		89A1948ABAB10826E3348F86 /* Pods_Unknown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unknown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDC46F6151980D84868BDDB /* Pods-Unknown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unknown.debug.xcconfig"; path = "Target Support Files/Pods-Unknown/Pods-Unknown.debug.xcconfig"; sourceTree = "<group>"; };
+		F115D5C32760EFAF0080BB68 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
 		F13039CC273AB4B200627E20 /* Unknown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unknown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13039CF273AB4B200627E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13039D1273AB4B200627E20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F115D5C22760EF890080BB68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F115D5C32760EFAF0080BB68 /* TokenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F13039C3273AB4B200627E20 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 			children = (
 				F1AF1C7E27588E6B00F3D651 /* Extension */,
 				F1AF1C7C27588D9400F3D651 /* Cell */,
+				F115D5C22760EF890080BB68 /* Model */,
 				F1491E15274F7B58003C3E6F /* Networking */,
 				F1AF1C7D27588DF500F3D651 /* ViewController */,
 				F13039CF273AB4B200627E20 /* AppDelegate.swift */,
@@ -319,6 +330,7 @@
 				F1963A3F274D223A00FA9428 /* ChangePasswordViewController.swift in Sources */,
 				F1491E1A274F7BB4003C3E6F /* AuthAPI.swift in Sources */,
 				F13039D4273AB4B200627E20 /* ViewController.swift in Sources */,
+				F115D5C42760EFAF0080BB68 /* TokenModel.swift in Sources */,
 				F1963A22274A8B2500FA9428 /* SignupViewController.swift in Sources */,
 				F1491E18274F7BA0003C3E6F /* API.swift in Sources */,
 				F13039D0273AB4B200627E20 /* AppDelegate.swift in Sources */,

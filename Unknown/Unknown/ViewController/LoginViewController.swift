@@ -33,5 +33,33 @@ class LoginViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    
+    private func login(email: String, password: String) {
+        HTTPClient().post(url: AuthAPI.login.path(), params: ["email": email, "password": password], header: Header.tokenIsEmpty.header()).responseJSON(completionHandler: { res in
+            print(res.response?.statusCode ?? 0)
+            switch res.response?.statusCode {
+            case 200 :
+                do {
+                    let model = try JSONDecoder().decode(TokenModel.self, from: res.data!)
+                    
+                    Token.token = model.access_token
+                    Token.refreshToken = model.refresh_token
+                    
+                    guard let vc = self.storyboard?
+                            .instantiateViewController(withIdentifier: "community") else {return}
+                    
+                    self.navigationController?.pushViewController(vc, animated: true)
+                }
+                catch {
+                    print(error)
+                }
+                
+            case 400:
+                print("요청 형식을 식별할 수 없음")
+            case 404:
+                print("id를 찾을 수 없음")
+            default:
+                print(res.response?.statusCode ?? 0)
+            }
+        })
+    }
 }
