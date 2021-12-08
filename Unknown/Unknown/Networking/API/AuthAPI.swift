@@ -9,10 +9,10 @@ import Foundation
 
 enum AuthAPI: API {
     
-    case signup, signin
+    case signup, login
     func path() -> String {
         switch self {
-        case .signin:
+        case .login:
             return "/login"
         case .signup:
             return "/signup"

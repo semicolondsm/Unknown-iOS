@@ -18,6 +18,15 @@ class ViewController: UIViewController {
         loginBtn.clipsToBounds = true
        
     }
-
+    
+    @IBAction func navPush(_ sender: UIButton) {
+            let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC")
+            self.navigationController?.pushViewController(pushVC!, animated: true)
+        }
+    
+    @IBAction func naviPush(_ sender: UIButton) {
+            let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpVC")
+            self.navigationController?.pushViewController(pushVC!, animated: true)
+        }
 }
 
