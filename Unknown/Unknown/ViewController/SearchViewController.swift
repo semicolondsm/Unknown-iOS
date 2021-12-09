@@ -16,6 +16,7 @@ class SearchViewController: UIViewController {
         setSerchBar()
         // Do any additional setup after loading the view.
         self.searchBar.searchBarStyle = .minimal
+
     }
     
     func setSerchBar() {
@@ -23,10 +24,10 @@ class SearchViewController: UIViewController {
         searchBar.setImage(UIImage(), for: UISearchBar.Icon.search, state: .normal)
         self.navigationItem.rightBarButtonItem?.tintColor = UIColor.black
         if let textfield = searchBar.value(forKey: "searchField") as? UITextField {
-        
+            searchBar.searchTextField.clearButtonMode = .never
         }
+       
     }
-
     @IBAction func modalPresent(_ sender: UIButton) {
             let newVC = self.storyboard?.instantiateViewController(identifier: "pushVC")
             newVC?.modalTransitionStyle = .coverVertical
@@ -42,5 +43,4 @@ class SearchViewController: UIViewController {
 //        formatter.dateFormat = "yyyy년 MM월 dd일 HH:mm"
 //        return formatter.string(from: current)
 //    }
-
 }
