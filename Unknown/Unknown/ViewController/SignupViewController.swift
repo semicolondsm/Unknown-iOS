@@ -50,5 +50,10 @@ class SignupViewController: UIViewController {
                 }
         })
     }
+    
+    @IBAction func changePush(_ sender: UIButton) {
+            let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC")
+            self.navigationController?.pushViewController(pushVC!, animated: true)
+        }
 
 }

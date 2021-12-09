@@ -62,4 +62,8 @@ class LoginViewController: UIViewController {
             }
         })
     }
+    @IBAction func changeVCPush(_ sender: UIButton) {
+            let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpVC")
+            self.navigationController?.pushViewController(pushVC!, animated: true)
+        }
 }

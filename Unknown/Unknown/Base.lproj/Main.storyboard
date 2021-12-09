@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hme-85-L6s">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZE3-E6-Z9e">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -194,6 +194,9 @@
                                             </attributedString>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="changeVCPush:" destination="u1O-Iv-kr2" eventType="touchUpInside" id="MrN-ST-zsZ"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="계정이 없으신가요?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiT-Kg-6Jf">
                                         <rect key="frame" x="100" y="430" width="114" height="20"/>
@@ -332,6 +335,7 @@
                             <constraint firstItem="y87-57-ASR" firstAttribute="trailing" secondItem="VoY-xz-qmM" secondAttribute="trailing" id="xbz-ae-p3K"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="7SB-Ij-5QU"/>
                     <connections>
                         <outlet property="idTextField" destination="uJS-1v-hUY" id="Aw0-jc-nEZ"/>
                         <outlet property="idView" destination="Lwc-YT-ivh" id="WkB-FI-qPh"/>
@@ -344,7 +348,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DN0-ab-Kog" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1143.4782608695652" y="278.57142857142856"/>
+            <point key="canvasLocation" x="-233.33333333333334" y="278.57142857142856"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="jD1-rk-SgZ">
@@ -1240,7 +1244,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNS-BS-eFj">
-                                <rect key="frame" x="0.0" y="308" width="414" height="588"/>
+                                <rect key="frame" x="0.0" y="352" width="414" height="588"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vo3-fD-g3V">
                                         <rect key="frame" x="139" y="63" width="136" height="43"/>
@@ -1289,6 +1293,9 @@
                                             <fontDescription key="titleFontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="14"/>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="changePush:" destination="tcZ-6s-Nfb" eventType="touchUpInside" id="Z0S-vy-zQA"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이미 계정이 있으신가요?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BR-Ja-nZ9">
                                         <rect key="frame" x="101" y="430" width="143.5" height="20"/>
@@ -1443,6 +1450,7 @@
                             <constraint firstAttribute="bottom" secondItem="aNS-BS-eFj" secondAttribute="bottom" id="W5N-eW-Bvi"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="oOG-oq-E68"/>
                     <connections>
                         <outlet property="ghTextField" destination="Ja4-Wd-rHW" id="UvH-Kk-iU9"/>
                         <outlet property="ghView" destination="eVx-PW-7KS" id="8rH-IM-RzE"/>
@@ -1456,7 +1464,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zqW-IN-h1W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-497.10144927536237" y="278.57142857142856"/>
+            <point key="canvasLocation" x="1323.1884057971015" y="278.57142857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7fk-ty-fAv">
@@ -1475,6 +1483,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UM8-Fo-2C8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1143.4782608695652" y="-368.30357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wtd-dG-nrL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O5n-T7-YbG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SaU-fi-qSt">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tcZ-6s-Nfb" kind="relationship" relationship="rootViewController" id="8VA-gW-zUq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1Z-9T-fbC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413.04347826086962" y="278.57142857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kmi-WM-ySN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZE3-E6-Z9e" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="E9d-mB-VM0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="u1O-Iv-kr2" kind="relationship" relationship="rootViewController" id="NOG-vH-CVz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvm-nt-Iid" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1143.4782608695652" y="278.57142857142856"/>
         </scene>
     </scenes>
     <resources>
