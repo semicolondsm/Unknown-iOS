@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZE3-E6-Z9e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hme-85-L6s">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -353,7 +353,7 @@
         <!--Search View Controller-->
         <scene sceneID="jD1-rk-SgZ">
             <objects>
-                <viewController id="Hme-85-L6s" customClass="SearchViewController" customModule="Unknown" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="community" id="Hme-85-L6s" customClass="SearchViewController" customModule="Unknown" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jZi-P1-Zfy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -414,6 +414,9 @@
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system"/>
+                                        <connections>
+                                            <action selector="buttonOK:" destination="Hme-85-L6s" eventType="touchUpInside" id="MJ5-XN-27c"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -551,6 +554,7 @@
                     </view>
                     <connections>
                         <outlet property="searchBar" destination="Adx-oQ-psg" id="R81-5D-6Cf"/>
+                        <outlet property="searchResultBtn" destination="Axx-PQ-PE8" id="j4l-dc-Wgu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4tu-lj-Q0i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -725,9 +729,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btn" destination="BZG-Az-do3" id="Zg6-hE-hWz"/>
+                        <outlet property="btn" destination="BZG-Az-do3" id="0CK-ij-ZOs"/>
                         <outlet property="codeTextView" destination="EVY-cX-bfx" id="hiU-hc-1ot"/>
                         <outlet property="contentView" destination="vqg-8E-N1D" id="tkz-b2-P8C"/>
+                        <outlet property="languageLbl" destination="2ba-09-Jgt" id="75d-iI-l6S"/>
                         <outlet property="languageView" destination="4IP-fw-4vq" id="llI-eY-lws"/>
                     </connections>
                 </viewController>
@@ -1414,7 +1419,6 @@
                                 <constraints>
                                     <constraint firstItem="Kn3-AA-alw" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="44" id="3m4-Nd-Ehh"/>
                                     <constraint firstItem="b11-sy-As2" firstAttribute="leading" secondItem="3BR-Ja-nZ9" secondAttribute="trailing" id="6A3-HK-hWR"/>
-                                    <constraint firstAttribute="height" constant="588" id="Eju-tF-tvI"/>
                                     <constraint firstItem="oe4-Ty-K7R" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="16" id="JnQ-Qx-ivN"/>
                                     <constraint firstItem="3BR-Ja-nZ9" firstAttribute="leading" secondItem="aNS-BS-eFj" secondAttribute="leading" constant="101" id="KnW-yg-EME"/>
                                     <constraint firstItem="b11-sy-As2" firstAttribute="top" secondItem="oe4-Ty-K7R" secondAttribute="bottom" constant="16" id="OOR-V5-YOe"/>
@@ -1444,10 +1448,10 @@
                         <viewLayoutGuide key="safeArea" id="672-Cr-pqB"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="aNS-BS-eFj" firstAttribute="top" secondItem="672-Cr-pqB" secondAttribute="top" constant="264" id="E83-jI-Ic3"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="aNS-BS-eFj" secondAttribute="bottom" constant="-78" id="3cb-Sq-jPt"/>
                             <constraint firstItem="aNS-BS-eFj" firstAttribute="trailing" secondItem="672-Cr-pqB" secondAttribute="trailing" id="QW4-5F-mUF"/>
                             <constraint firstItem="aNS-BS-eFj" firstAttribute="leading" secondItem="672-Cr-pqB" secondAttribute="leading" id="TCb-Y9-HmS"/>
-                            <constraint firstAttribute="bottom" secondItem="aNS-BS-eFj" secondAttribute="bottom" id="W5N-eW-Bvi"/>
+                            <constraint firstItem="aNS-BS-eFj" firstAttribute="top" secondItem="672-Cr-pqB" secondAttribute="top" constant="264" id="vyX-kZ-cML"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oOG-oq-E68"/>

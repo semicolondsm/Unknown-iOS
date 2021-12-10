@@ -40,7 +40,7 @@ class SignupViewController: UIViewController {
                 case 201 :
                     print("회원가입 성공")
                     
-                    guard let vc = self.storyboard? .instantiateViewController(withIdentifier: "login") else {return}
+                    guard let vc = self.storyboard? .instantiateViewController(withIdentifier: "LoginVC") else {return}
                     
                     self.navigationController?.popViewController(animated: true)
                     

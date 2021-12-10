@@ -15,6 +15,7 @@ class WriteViewController: UIViewController {
     @IBOutlet weak var languageView: UIView!
     @IBOutlet weak var btn: UIButton!
     @IBOutlet weak var codeTextView: UITextView!
+    @IBOutlet weak var languageLbl: UILabel!
     
     private let dropdown: DropDown = {
         let dropDown = DropDown()
@@ -24,6 +25,10 @@ class WriteViewController: UIViewController {
         dropDown.textFont = UIFont.systemFont(ofSize: 14)
         dropDown.cornerRadius = 10
         return dropDown
+//        dropDown.selectionAction = { [unowned self] (index, item) in
+//                   self.btn.setTitle(item, for: .normal)
+//               }
+        dropDown.show()
     }()
 
     override func viewDidLoad() {
@@ -46,5 +51,7 @@ class WriteViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+    
 
 }

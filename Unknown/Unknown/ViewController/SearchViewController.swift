@@ -10,6 +10,7 @@ import UIKit
 class SearchViewController: UIViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var searchResultBtn: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,4 +44,8 @@ class SearchViewController: UIViewController {
 //        formatter.dateFormat = "yyyy년 MM월 dd일 HH:mm"
 //        return formatter.string(from: current)
 //    }
+    
+    @IBAction func buttonOK(_ sender: UIButton) {
+        searchResultBtn.text = searchBar.text!
+        }
 }
