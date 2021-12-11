@@ -28,8 +28,8 @@
 		F1963A3B274BCE7000FA9428 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A3A274BCE7000FA9428 /* WriteViewController.swift */; };
 		F1963A3D274CD85100FA9428 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A3C274CD85100FA9428 /* MypageViewController.swift */; };
 		F1963A3F274D223A00FA9428 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A3E274D223A00FA9428 /* ChangePasswordViewController.swift */; };
-		F1963A42274D25CA00FA9428 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A40274D25CA00FA9428 /* MainTableViewCell.swift */; };
-		F1963A43274D25CA00FA9428 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1963A41274D25CA00FA9428 /* MainTableViewCell.xib */; };
+		F1963A42274D25CA00FA9428 /* MypageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A40274D25CA00FA9428 /* MypageTableViewCell.swift */; };
+		F1963A43274D25CA00FA9428 /* MypageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1963A41274D25CA00FA9428 /* MypageTableViewCell.xib */; };
 		F1963A45274D2B6100FA9428 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1963A44274D2B6100FA9428 /* Extension.swift */; };
 		F1AF1C81275A688C00F3D651 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AF1C7F275A688C00F3D651 /* PostTableViewCell.swift */; };
 		F1AF1C82275A688C00F3D651 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AF1C80275A688C00F3D651 /* PostTableViewCell.xib */; };
@@ -62,8 +62,8 @@
 		F1963A3A274BCE7000FA9428 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		F1963A3C274CD85100FA9428 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 		F1963A3E274D223A00FA9428 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
-		F1963A40274D25CA00FA9428 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
-		F1963A41274D25CA00FA9428 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		F1963A40274D25CA00FA9428 /* MypageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageTableViewCell.swift; sourceTree = "<group>"; };
+		F1963A41274D25CA00FA9428 /* MypageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MypageTableViewCell.xib; sourceTree = "<group>"; };
 		F1963A44274D2B6100FA9428 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F1AF1C7F275A688C00F3D651 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		F1AF1C80275A688C00F3D651 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
@@ -166,8 +166,8 @@
 		F1AF1C7C27588D9400F3D651 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				F1963A40274D25CA00FA9428 /* MainTableViewCell.swift */,
-				F1963A41274D25CA00FA9428 /* MainTableViewCell.xib */,
+				F1963A40274D25CA00FA9428 /* MypageTableViewCell.swift */,
+				F1963A41274D25CA00FA9428 /* MypageTableViewCell.xib */,
 				F1AF1C7F275A688C00F3D651 /* PostTableViewCell.swift */,
 				F1AF1C80275A688C00F3D651 /* PostTableViewCell.xib */,
 			);
@@ -261,7 +261,7 @@
 			files = (
 				F13039DC273AB4B400627E20 /* LaunchScreen.storyboard in Resources */,
 				F13039D9273AB4B400627E20 /* Assets.xcassets in Resources */,
-				F1963A43274D25CA00FA9428 /* MainTableViewCell.xib in Resources */,
+				F1963A43274D25CA00FA9428 /* MypageTableViewCell.xib in Resources */,
 				F1AF1C82275A688C00F3D651 /* PostTableViewCell.xib in Resources */,
 				F13039D7273AB4B200627E20 /* Main.storyboard in Resources */,
 				F1D1B4392756104A0016DBA0 /* NotoSansCJKkr-hinted in Resources */,
@@ -319,7 +319,7 @@
 			files = (
 				F1491E24274FA5F5003C3E6F /* PostViewController.swift in Sources */,
 				F1491E20274F7BF8003C3E6F /* Header.swift in Sources */,
-				F1963A42274D25CA00FA9428 /* MainTableViewCell.swift in Sources */,
+				F1963A42274D25CA00FA9428 /* MypageTableViewCell.swift in Sources */,
 				F1491E22274F7C13003C3E6F /* HTTPClient.swift in Sources */,
 				F1963A3D274CD85100FA9428 /* MypageViewController.swift in Sources */,
 				F1AF1C81275A688C00F3D651 /* PostTableViewCell.swift in Sources */,
