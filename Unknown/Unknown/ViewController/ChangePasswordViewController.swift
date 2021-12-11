@@ -15,6 +15,7 @@ class ChangePasswordViewController: UIViewController {
     @IBOutlet weak var pwView: UIView!
     @IBOutlet weak var newpwView: UIView!
     @IBOutlet weak var checkpwView: UIView!
+    @IBOutlet weak var passwordUpdateBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +34,15 @@ class ChangePasswordViewController: UIViewController {
     }
     */
     
+    @IBAction func passwordUpdateBtn(_ sender: Any) {
+        let alert = UIAlertController(title: "비밀번호가 변경되었습니다", message: nil, preferredStyle: .alert)
+            let action = UIAlertAction(title: "확인", style: .default, handler: nil)
+            alert.addAction(action)
+            present(alert, animated: true, completion: nil)
+    }
+    
     private func changePW(email: String, password: String) {
-        HTTPClient().post(url: AuthAPI.login.path(), params: ["email": email, "password": password], header: Header.tokenIsEmpty.header()).responseJSON(completionHandler: { res in
+        HTTPClient().patch(url: AuthAPI.login.path(), params: ["email": email, "password": password], header: Header.tokenIsEmpty.header()).responseJSON(completionHandler: { res in
             print(res.response?.statusCode ?? 0)
             switch res.response?.statusCode {
             case 200 :
@@ -64,4 +72,6 @@ class ChangePasswordViewController: UIViewController {
             }
         })
     }
+    
+    
 }
