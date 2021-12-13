@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTableViewCell: UITableViewCell {
+class MypageViewCell: UITableViewCell {
 
     @IBOutlet weak var postView: UIView!
     @IBOutlet weak var codeView: UIView!
